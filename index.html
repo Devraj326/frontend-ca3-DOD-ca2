@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <title>Flavour Fusion Hub</title>
+</head>
+<body>
+  <div class="main">
+    <div class="header">
+      <div class="imagecon">
+        <img class="imgimg" src="assets/Flavour Fusion Hub-logos_black.png" alt="Logo">
+      </div>
+      <div class="margintop">
+      <nav class="navbar">
+        <b><a href="">Home</a></b>
+        <a href="">login</a>
+        <a href="">About Us</a>
+      </nav></div>
+    </div>
+
+    <div class="downheader">
+      <div class="discriptionheading"><h1>Welcome to <br>Flavour Fusion Hub</h1></div>
+      <div class="discriptionfooter"><h3>Your taste buds will thank you</h3></div>
+      <div class="discription"><p>Immerse yourself in the symphony of spices, the dance of aromas,<br> and the alchemy of textures that elevate ordinary dishes into extraordinary experiences. <br>
+        Let the magic of ingredients weave its spell, captivating your senses and igniting a passion for culinary exploration.</p></div>
+      <div class="searchbar">
+        <input type="text" id="search-input" placeholder="Search for category">
+        <button id="search-button">Search</button>
+      </div>
+    </div>
+<br><br><br><br><br>
+    <div class="getrandomimg">
+      <h2 id="random-heading">Hungary: Let me suggest something😋</h2>
+      <div id="rndimgdiv">
+        <div id="random-img"></div>
+        <p id="foodtext"></p>
+      </div>
+
+      <div id="ingredientsModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Ingredients</h2>
+          <div id="ingredients-container">
+            </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div>
+      <h2 id="pop-meal">Popular Meals</h2>
+      <div id="popular-meals"></div>
+    </div>
+
+  </div>
+
+  
+</body>
+<script src="script.js"></script>
+</html>
+
